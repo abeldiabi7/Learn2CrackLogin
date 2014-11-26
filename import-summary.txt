@@ -1,0 +1,111 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/_name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/android_support_v4_dbf1b92a913ffd07a84daf7831f420fb.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* _classpath
+* _project
+* ic_launcher-web.png
+* out/
+* out/production/
+* out/production/Learn2CrackLogin/
+* out/production/Learn2CrackLogin/Learn2CrackLogin.apk
+* out/production/Learn2CrackLogin/Learn2CrackLogin.unaligned.apk
+* out/production/Learn2CrackLogin/com/
+* out/production/Learn2CrackLogin/com/learn2crack/
+* out/production/Learn2CrackLogin/com/learn2crack/BuildConfig.class
+* out/production/Learn2CrackLogin/com/learn2crack/ChangePassword$1.class
+* out/production/Learn2CrackLogin/com/learn2crack/ChangePassword$2.class
+* out/production/Learn2CrackLogin/com/learn2crack/ChangePassword$NetCheck.class
+* out/production/Learn2CrackLogin/com/learn2crack/ChangePassword$ProcessRegister.class
+* out/production/Learn2CrackLogin/com/learn2crack/ChangePassword.class
+* out/production/Learn2CrackLogin/com/learn2crack/Login$1.class
+* out/production/Learn2CrackLogin/com/learn2crack/Login$2.class
+* out/production/Learn2CrackLogin/com/learn2crack/Login$3.class
+* out/production/Learn2CrackLogin/com/learn2crack/Login$NetCheck.class
+* out/production/Learn2CrackLogin/com/learn2crack/Login$ProcessLogin.class
+* out/production/Learn2CrackLogin/com/learn2crack/Login.class
+* out/production/Learn2CrackLogin/com/learn2crack/Main$1.class
+* out/production/Learn2CrackLogin/com/learn2crack/Main$2.class
+* out/production/Learn2CrackLogin/com/learn2crack/Main.class
+* out/production/Learn2CrackLogin/com/learn2crack/PasswordReset$1.class
+* out/production/Learn2CrackLogin/com/learn2crack/PasswordReset$2.class
+* out/production/Learn2CrackLogin/com/learn2crack/PasswordReset$NetCheck.class
+* out/production/Learn2CrackLogin/com/learn2crack/PasswordReset$ProcessRegister.class
+* out/production/Learn2CrackLogin/com/learn2crack/PasswordReset.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$attr.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$dimen.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$drawable.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$id.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$layout.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$menu.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$string.class
+* out/production/Learn2CrackLogin/com/learn2crack/R$style.class
+* out/production/Learn2CrackLogin/com/learn2crack/R.class
+* out/production/Learn2CrackLogin/com/learn2crack/Register$1.class
+* out/production/Learn2CrackLogin/com/learn2crack/Register$2.class
+* out/production/Learn2CrackLogin/com/learn2crack/Register$NetCheck.class
+* out/production/Learn2CrackLogin/com/learn2crack/Register$ProcessRegister.class
+* out/production/Learn2CrackLogin/com/learn2crack/Register.class
+* out/production/Learn2CrackLogin/com/learn2crack/Registered$1.class
+* out/production/Learn2CrackLogin/com/learn2crack/Registered.class
+* out/production/Learn2CrackLogin/com/learn2crack/library/
+* out/production/Learn2CrackLogin/com/learn2crack/library/DatabaseHandler.class
+* out/production/Learn2CrackLogin/com/learn2crack/library/JSONParser.class
+* out/production/Learn2CrackLogin/com/learn2crack/library/UserFunctions.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
